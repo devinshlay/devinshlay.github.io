@@ -1,1 +1,22 @@
 
+        body {
+            background-color: blue;
+            color: gold;
+        }
+        
+        #school_info {
+            background-color: purple;
+        }
+        
+        #about_us {
+            background-color: yellow;
+        }
+        
+        #intro {
+            background-color: red;
+        }
+        
+        #title {
+            text-align: center;
+        }
+        
