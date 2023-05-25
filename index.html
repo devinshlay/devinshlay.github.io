@@ -1,46 +1,26 @@
 <!DOCTYPE html>
+
+<!--This page is meant to be viewed on full screen-->
+
 <html>
 
 
 <title>St. Devin Catholic School</title>
 
 <head>
-    <style>
-        body {
-            background-color: blue;
-            color: rgb(255,215,0);
-            }
-        
-        
-        
-        #school_info {
-            background-color: green;
-            }
-
-        #about_us {
-            background-color: yellow;
-            width: 500px;
-            }
-
-        #intro {
-            background-color: red;
-            }
-
-        #title {
-            text-align: center;
-            }
-        
-        
-    </style>
+   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     
+    <div class='title'>
+        <h1 class='title'>St. Devin Catholic School</h1>
+        </div>
+    
     <div id='intro'>
-        <img src='Highschool_image.jpg'>
-        <h1 id='title'>St. Devin Catholic School</h1>
-        <p id='title'>Welcome to St. Devin Catholic school! </p>
-        <p id='title'>Where we believe "Nurturing Excellence, Inspiring Futures"</p>
+        <p class='catchphrase'>Welcome to St. Devin Catholic school! </p>
+        <img  id='school_image' src='https://upload.wikimedia.org/wikipedia/commons/3/39/Hibbing_High_School_2014.jpg'>
+        <p class='catchphrase'>Where we believe "Nurturing Excellence, Inspiring Futures"</p>
     </div>
     
     <div id='about_us'>
@@ -50,23 +30,23 @@
     </div>
 
     <div id='school_info'>
-        <h2><u>School Info</u></h2>
-        <h3>Principal</h3>
-        <p>Devin Shlaymoon IV</p>
+        <h2 id='x'><u>School Info</u></h2>
+        <h3 class='principal'>Principal</h3>
+        <p class='principal'>Devin Shlaymoon IV</p>
 
-        <h3>Address</h3>
-        <p>123 Devin Rd.</p>
+        <h3 class='address'>Address</h3>
+        <p class='address'>123 Devin Rd.</p>
 
-        <h3>News</h3>
-        <ul>
+        <h3 class='news'>News</h3>
+        <ul class='news'>
             <li>National Devin Day</li>
             <li>St. Devin wins championship in international basketball</li>
             <li>Exams starting soon</li>
         </ul>
 
-        <h3>Calendar</h3>
-
-        <table>
+        <h3 class='calendar'><u>Calendar</u></h3>
+        
+        <table class='calendar'>
             <tr>
                 <th><u>Date</u></th>
                 <th><u>Event</u></th>
