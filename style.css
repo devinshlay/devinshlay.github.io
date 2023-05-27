@@ -29,8 +29,15 @@
             font-size: 25px;
             position: relative;
             margin-top: 75px;
-            }
-
+          }
+        
+        #club {
+            font-size: 30px;
+            position: relative;
+            top: -460px;
+            text-align: right;
+            left: -75px;
+        }
         .title {
             text-align: center;
             background-color: white;
