@@ -4,9 +4,10 @@
             }
         
         #school_image {
-            width: 500px;
+            width: 750px;
             position: relative;
-            left: 620px;
+            left: 570px;
+            top: 200px;
             border: double 5px;
             }
         
@@ -14,7 +15,7 @@
             background-color: rgb(0,0,205);
             font-size: 25px;
             position: relative;
-            top: -50px;
+            top: -400px;
                 }
 
         #about_us {
@@ -23,6 +24,7 @@
             position: relative;
             top: -100px;
             left: 50px;
+            
             }
 
         #intro {
@@ -30,7 +32,15 @@
             position: relative;
             margin-top: 75px;
             }
-
+        
+        #club {
+            font-size: 30px;
+            position: relative;
+            top: -460px;
+            text-align: right;
+            left: -75px;
+        }
+        
         .title {
             text-align: center;
             background-color: white;
@@ -51,19 +61,19 @@
         
         .principal{
             position: relative;
-            left: 250px;
+            left: 430px;
         }
         
         .address {
-             position: relative;
-           left: 600px;
+           text-align: center;
+           position: relative;
            top: -120px;
 
         }
         
         .news {
             position: relative;
-            left: 850px;
+            left: 1100px;
             top: -240px;
 
         }
