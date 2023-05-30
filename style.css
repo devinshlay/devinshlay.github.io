@@ -38,6 +38,10 @@
             text-align: right;
             left: -75px;
         }
+
+       #x {
+        text-align: center;
+        
         .title {
             text-align: center;
             background-color: white;
