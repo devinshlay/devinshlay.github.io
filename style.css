@@ -1,6 +1,7 @@
- body {
-            background-color: blue;
-            color: rgb(255,215,0);
+ <style>
+   body {
+            background-color: rgb(4, 31, 96);
+            color: rgb(225,215,0);
             }
 a {
  color: rgb(255, 215, 0);
@@ -13,10 +14,11 @@ a {
             }
         
         #school_info {
-            background-color: rgb(0,0,205);
+            background-color: rgb(11, 54, 79);
             font-size: 25px;
             position: relative;
             top: -250px;
+            border: solid;
                 }
 
         #about_us {
@@ -65,19 +67,19 @@ a {
         
         .principal{
             position: relative;
-            left: 250px;
+            left: 200px;
         }
         
         .address {
              position: relative;
-           left: 600px;
+           left: 550px;
            top: -120px;
 
         }
         
         .news {
             position: relative;
-            left: 850px;
+            left: 800px;
             top: -240px;
 
         }
@@ -168,4 +170,10 @@ a {
         #p3 {
             font-size: 20px;
             text-align: center;
+        }
+        
+        .schoolDepartment {
+            position: relative;
+            top: -490px;
+            left: 100px;
         }
