@@ -6,9 +6,9 @@ a {
  color: rgb(255, 215, 0);
            }
         #school_image {
-            width: 350px;
+            width: 500px;
             position: relative;
-            left: 550px;
+            left: 350px;
             border: double 5px;
             }
         
