@@ -214,10 +214,19 @@
             font-size: 20px;
         }
         
-        .dashed {
+        #dashed1 {
             position: relative;
             left: -370px;
             top: -300px;
+            
+            width: 600px;
+            transform: rotate(90deg);
+        }
+        
+        #dashed2 {
+            position: relative;
+            left: 100px;
+            top: -840px;
             
             width: 600px;
             transform: rotate(90deg);
@@ -233,6 +242,19 @@
         
         ul.coursesOffered {
             font-size: 20px;
+        }
+        
+        #teachersInfo {
+            position: relative;
+            top: -1160px;
+            left: 1000px;
+            background-color: green;
+            width: 400px;
+        }
+        
+        table.teachers {
+            font-size: 20px;
+            margin-top: 25px;
         }
     </style>
 </head>
@@ -250,15 +272,15 @@
     </div>
     
 <div id='scienceInfo'>
-    <h1 class='science'>Science</h2>
+    <h1 class='science'><u>Science:</u></h2>
     <p class='science'>Providing students with access to excellent Science  is a priority at St. Devin Catholic School. Science education is an important part of a student’s school experience and we are proud of the strong science programs across our schools. Expectations within all of the arts disciplines (Dance, Drama, Music, Media Arts, Visual Arts) are framed by the creative and critical thinking processes. </p>
    
 </div>
 
-<hr class="dashed">
+<hr id="dashed1">
 
 <div id='coursesOfferedInfo'>
-    <h1 class='coursesOffered'> Courses Offered</h1>
+    <h1 class='coursesOffered'><u>Courses Offered:</u></h1>
     <ul class='coursesOffered'>
         <li><strong>Biology</strong>: In this course, students delve into the fascinating world of living organisms, studying their structures and functions</li> 
        <li><strong>Chemistry</strong>: The course offers an exciting study into atoms, molecules, and reactions. Students also learn about the principles of matter.</li>
@@ -267,6 +289,37 @@
     </ul>
 </div>
 
+<hr id="dashed2">
+
+<div id='teachersInfo'>
+    <h1 class='teachers'><u>Teachers:</u></h1>
+    <table class='teachers'>
+        <tr>
+            <th>Name</th>
+            <th>Position</th>
+        </tr>
+        <tr>
+            <td>Mr. Einstein </td>
+            <td>Head of Department</td>
+        </tr>
+        <tr>
+            <td>Mrs. Flora </td>
+            <td>Biology Teacher</td>
+        </tr>
+        <tr>
+            <td>Mr. Nexus</td>
+            <td>Physics Teacher</td>
+        </tr>
+        <tr>
+            <td>Mr. Cosmos </td>
+            <td>Chemisty Teacher</td>
+        </tr>
+        <tr>
+            <td>Mr. Eco-Life</td>
+            <td>Bio-Tech Teacher</td>
+        </tr>
+    </table>
+</div>
+
 </body>
 </html>
-
