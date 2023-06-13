@@ -211,7 +211,7 @@ body {
         
         #dashed1 {
             position: relative;
-            left: -100px;
+            left: -120px;
             top: -300px;
             
             width: 600px;
@@ -220,7 +220,7 @@ body {
         
         #dashed2 {
             position: relative;
-            left: 400px;
+            left: 380px;
             top: -840px;
             
             width: 600px;
