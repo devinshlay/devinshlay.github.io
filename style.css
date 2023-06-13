@@ -57,6 +57,15 @@ body {
 
         }
 
+.title2 {
+            text-align: center;
+            background-color: yellow;
+            position: relative;
+            height: 100px;
+            z-index: -1;
+
+        }
+
         h1.title {
             position: relative;
             top: 40px;
