@@ -4,7 +4,7 @@ body {
         }
 
         a {
-            color: rgb(255, 215, 0);
+            color: rgb(225, 215, 0);
         }
 
         #school_image {
@@ -53,6 +53,7 @@ body {
             background-color: white;
             position: relative;
             height: 100px;
+            z-index: -1;
 
         }
 
@@ -210,7 +211,7 @@ body {
         
         #dashed1 {
             position: relative;
-            left: -370px;
+            left: -100px;
             top: -300px;
             
             width: 600px;
@@ -219,7 +220,7 @@ body {
         
         #dashed2 {
             position: relative;
-            left: 100px;
+            left: 400px;
             top: -840px;
             
             width: 600px;
@@ -248,4 +249,22 @@ body {
         table.teachers {
             font-size: 20px;
             margin-top: 25px;
+        }
+        
+        ul.nav_bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+        
+        li.nav_bar {
+            display: inline;
+        }
+        
+        #navbar {
+            position: relative;
+            top: 145px;
+            margin: 30px;
+            font-size: 23px;
+            
         }
