@@ -1,10 +1,11 @@
 body {
             background-color: rgb(4, 31, 96);
-            color: rgb(225, 215, 0);
+            color: rgb(255, 215, 0);
+            
         }
 
         a {
-            color: rgb(225, 215, 0);
+            color: rgb(255, 215, 0);
         }
 
         #school_image {
@@ -53,7 +54,7 @@ body {
             background-color: white;
             position: relative;
             height: 100px;
-            z-index: -1;
+             z-index: -1;
 
         }
 
@@ -211,7 +212,7 @@ body {
         
         #dashed1 {
             position: relative;
-            left: -120px;
+            left: -370px;
             top: -300px;
             
             width: 600px;
@@ -220,7 +221,7 @@ body {
         
         #dashed2 {
             position: relative;
-            left: 380px;
+            left: 100px;
             top: -840px;
             
             width: 600px;
@@ -240,18 +241,6 @@ body {
         }
         
         #teachersInfo {
-            position: relative;
-            top: -1160px;
-            left: 1000px;
-            width: 400px;
-        }
-        
-        table.teachers {
-            font-size: 20px;
-            margin-top: 25px;
-        }
-
- #teachersInfo {
             position: relative;
             top: -1160px;
             left: 1000px;
@@ -292,11 +281,29 @@ body {
             margin: 10px;
             font-size: 30px;
         }
-
-            
-                        
-
-        ul.nav_bar {
+        
+        #RulesInfo {
+            position: relative;
+            top: -615px;
+            left: 1050px;
+            width: 400px;
+            border: solid;
+        }
+        
+        .Rules {
+        margin: 10px;
+        font-size: 20px;
+        }
+        
+        #students {
+            width: 800px;
+            position: relative;
+            left: 600px;
+            top: -500px;
+            border: double 5px;
+        }
+        
+         ul.nav_bar {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -308,8 +315,7 @@ body {
         
         #navbar {
             position: relative;
-            top: 145px;
+            top: 150px;
             margin: 30px;
             font-size: 23px;
-            
-        }
+            }
