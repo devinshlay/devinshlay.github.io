@@ -210,23 +210,7 @@ body {
             font-size: 20px;
         }
         
-        #dashed1 {
-            position: relative;
-            left: -440px;
-            top: -300px;
-            
-            width: 600px;
-            transform: rotate(90deg);
-        }
-        
-        #dashed2 {
-            position: relative;
-            left: -80px;
-            top: -840px;
-            
-            width: 600px;
-            transform: rotate(90deg);
-        }
+     
         
         #coursesOfferedInfo {
             width: 400px;
