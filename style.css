@@ -221,7 +221,7 @@ body {
         
         #dashed2 {
             position: relative;
-            left: 100px;
+            left: -50px;
             top: -840px;
             
             width: 600px;
@@ -229,7 +229,6 @@ body {
         }
         
         #coursesOfferedInfo {
-            background-color: gree;
             width: 400px;
             position: relative;
             top: -607px;
@@ -253,7 +252,6 @@ body {
         }
         
         #offersInfo {
-            background-color: gree;
             position: relative;
             top: 100px;
             margin-left: 30px;
